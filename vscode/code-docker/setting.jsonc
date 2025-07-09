@@ -1,0 +1,32 @@
+{
+  "editor.fontLigatures": true, // editor ligature
+	"editor.fontFamily": "'KawaiiMono', 'monospace'", // editor fonts
+
+	"editor.fontSize": 17.5,
+	"terminal.integrated.fontSize": 18,
+
+  "editor.cursorBlinking": "solid", // 커서 깜빡임 유형
+	"editor.cursorStyle": "block", // 커서모양
+
+  "git.confirmSync": false, // sync 확인해야하는 여부
+	"git.autofetch": true, // 자동 fetch (pull 확인)
+	"git.enableSmartCommit": true, // stage 빈상태로 커밋하면 git add . 먼저 실행
+
+  "editor.guides.bracketPairs": "active", // 괄호 가이드 선 보여주기
+	"editor.matchBrackets": "always", // 일치하는 괄호를 하이라이팅 해줌
+	"editor.guides.highlightActiveBracketPair": true,
+	"editor.bracketPairColorization.enabled": true,
+	
+	"editor.stickyTabStops": true, // 스페이스를 탭문자처럼 이동시킴
+	"editor.renderLineHighlight": "all", // 현재 줄 강조 표시
+	"editor.inlineSuggest.enabled": true,
+	"files.autoSave": "off",
+
+	"explorer.sortOrder": "type",
+
+	"workbench.activityBar.location": "bottom", // 액티비티바 (오른쪽 패널 탭) 위치
+	"window.menuBarVisibility": "classic",
+
+	"workbench.colorTheme": "Default Dark Modern",
+	"workbench.iconTheme": "material-icon-theme",
+}
