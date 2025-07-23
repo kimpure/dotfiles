@@ -1,125 +1,34 @@
 {
-    "workbench.colorTheme": "Default Dark Modern",
-    "workbench.iconTheme": "material-icon-theme",
-    "luau-lsp.inlayHints.parameterTypes": true,
-    "luau-lsp.inlayHints.variableTypes": true,
-    "luau-lsp.inlayHints.hideHintsForErrorTypes": true,
-    "luau-lsp.inlayHints.functionReturnTypes": true,
-    "[markdown]": {
-        "diffEditor.ignoreTrimWhitespace": true
-    },
-	
-    "window.autoDetectColorScheme": true, // 자동 테마링 (시스템 팔로우)
-    "workbench.preferredLightColorTheme": "Quiet Light", // 다크 테마에 적용
-	// #endregion Theme
-	
-	// #region Font
-	"editor.fontLigatures": true, // 에디터 합자 사용
-	"editor.fontFamily": "KawaiiMono", // 에디터 폰트
-	"editor.fontSize": 15, // 에디터 폰트 크기
-	// "editor.lineHeight": 1.28, // 에디터 폰트 높이
-	// "terminal.integrated.fontFamily": "'KawaiiMono', 'monospace'", // 터미널 폰트
-	// "terminal.integrated.fontSize": 18, // 터미널 폰트 크기
-	"terminal.integrated.lineHeight": 1, // 터미널 폰트 높이
-	// #endregion Font
+  "editor.fontLigatures": true, // editor ligature
+	"editor.fontFamily": "'KawaiiMono', 'monospace'", // editor fonts
 
-	// #region Scroll
-	"editor.scrollbar.verticalScrollbarSize": 8, // vscroll 크기
-	"editor.scrollbar.horizontalScrollbarSize": 8, // hscroll 크기
-	"workbench.list.smoothScrolling": false, // 부드러운 스크롤 (트리)
-	"editor.semanticHighlighting.enabled": true, // 코드 하이라이팅
-	"editor.minimap.autohide": true, // 미니맵 자동 숨기기
-	"editor.minimap.side": "right", // 미니맵 위치
-	"editor.minimap.renderCharacters": false, // 미니맵에 글자 안그림 (최적화)
-	"editor.minimap.size": "fill", // 미니맵 크기 조절 방법
-	"editor.scrollPredominantAxis": false, // trackpad 에서 스크롤 상하좌우 자유롭게하기
-	"editor.mouseWheelScrollSensitivity": 1.1, // 스크롤 상수
-	"editor.stickyScroll.enabled": true, // 몇줄씩 붇어서 상위분 보여주는 스크롤
-	"editor.stickyScroll.maxLineCount": 2, // 붇어 스크롤하는 라인 최대 수
-	// #endregion Scroll
+	"editor.fontSize": 19,
+	"terminal.integrated.fontSize": 18,
 
-	// #region Explorer
-	"workbench.editor.decorations.colors": true, // 탐색기 항목 들여쓰기 수준
-	"workbench.tree.expandMode": "doubleClick", // 탐색기 항목 열기 동작
-	"workbench.tree.renderIndentGuides": "always", // 들여쓰기 가이드
-	"explorer.sortOrder": "type", // 탐색창 정렬 방법을 종류 순으로
-	"explorer.copyRelativePathSeparator": "/", // path 복사시 / 로 세퍼레이팅 하도록 만듦
-	"files.exclude": {
-		"**/.git/": false, // git 폴더(파일은 빼고) 안보이지 않도록 만듦
-	},
-	// #endregion Explorer
+  "editor.cursorBlinking": "solid", // 커서 깜빡임 유형
+	"editor.cursorStyle": "block", // 커서모양
 
-	// #region Tabs
-	"workbench.editor.pinnedTabSizing": "compact", // 핀 한 탭 크기
-	"workbench.editor.tabSizing": "fit", // 적응형 크기
-	"workbench.editor.scrollToSwitchTabs": true, // 스크롤로 탭 전환 허용
-	"workbench.editor.wrapTabs": true, // 탭 워랩
-	// #endregion Tabs
-
-	// #region Cursor
-	"editor.cursorSmoothCaretAnimation": "off", // 부드러운 커서 움직임
-	"editor.cursorBlinking": "solid", // 커서 깜빡임 유형
-	"editor.cursorStyle": "block",
-	// "editor.cursorStyle": "block", // 커서 스타일... 잘 보여서 이거 쓰는중임
-	"editor.cursorSurroundingLines": 5, // 커서로 페이지 움직여지기 시작하는 라인
-	"terminal.integrated.cursorBlinking": false, // 터미널 커서 반짝임
-	"editor.selectionClipboard": false, // linux 의 선택 클립보드 기능을 없엠
-	"editor.occurrencesHighlightDelay": 0, // 같은 단어 하이라이팅 딜레이
-	// #endregion Cursor
-
-	// #region Git
-	"git.confirmSync": false, // sync 확인해야하는 여부
+  "git.confirmSync": false, // sync 확인해야하는 여부
 	"git.autofetch": true, // 자동 fetch (pull 확인)
 	"git.enableSmartCommit": true, // stage 빈상태로 커밋하면 git add . 먼저 실행
-	// #endregion Git
 
-	// #region Screencast Mode
-	"screencastMode.verticalOffset": 1,
-	"screencastMode.mouseIndicatorSize": 42,
-	"screencastMode.fontSize": 32,
-	// #endregion Screencast Mode
-
-	// #region Bracket Matchs
-	"editor.guides.bracketPairs": "active", // 괄호 가이드 선 보여주기
+  "editor.guides.bracketPairs": "active", // 괄호 가이드 선 보여주기
 	"editor.matchBrackets": "always", // 일치하는 괄호를 하이라이팅 해줌
 	"editor.guides.highlightActiveBracketPair": true,
 	"editor.bracketPairColorization.enabled": true,
-	// #endregion Bracket Matchs
-
-	// #region Confirm
-	"explorer.confirmDragAndDrop": false, // 드래그 파일 이동시 물어보기 없애기
-	"explorer.confirmDelete": false, // 삭제 물어보기 제거
-	// #endregion Confirm
-
-	// #region Layout
-	"workbench.activityBar.location": "bottom", // 액티비티바 (오른쪽 패널 탭) 위치
-	"window.menuBarVisibility": "classic", // 윈도우 타이틀바 쪽에 메뉴
-	// #endregion Layout
-
-	// #region Code Editor
+	
 	"editor.stickyTabStops": true, // 스페이스를 탭문자처럼 이동시킴
-	"editor.renderWhitespace": "boundary", // 화이트스페이스 렌더링
-	"editor.mouseWheelZoom": true, // 컨트롤 + 스크롤로 확대 축소
 	"editor.renderLineHighlight": "all", // 현재 줄 강조 표시
-	// "editor.rulers": [80, 100, 120], // 룰러 (글자 수에 따른 줄)
-	"editor.inlineSuggest.enabled": true, // 커서 뒤에 투명한 글자로 자동제안 표시
-	"workbench.editor.empty.hint": "hidden", // 빈 텍스트 파일에서 눌리는 작업
-	"files.autoSave": "off", // 자동저장 끄기
-	// #endregion Code Editor
+	"editor.inlineSuggest.enabled": true,
+	"files.autoSave": "off",
 
-	// #region ETC
-	"editor.suggest.preview": false,
-	"workbench.startupEditor": "welcomePageInEmptyWorkbench", // 시작시 페이지
-	"remote.forwardOnOpen": false,
-	// #endregion ETC
+	"explorer.sortOrder": "type",
 
-	"symbols.hidesExplorerArrows": false,
-	"glassit.alpha": 255,
-	"glassit.step": 10,
-	"remote.SSH.remotePlatform": {
-		"home.qwreey.moe": "linux"
-	},
-	"debug.disassemblyView.showSourceCode": false,
-	// #endregion Theme Customizations,
+	"workbench.activityBar.location": "bottom", // 액티비티바 (오른쪽 패널 탭) 위치
+	"window.menuBarVisibility": "classic",
 
+	"workbench.colorTheme": "Default Dark Modern",
+	"workbench.iconTheme": "material-icon-theme",
+	"glassit.alpha": 220,
+	"files.eol": "\n"
 }
