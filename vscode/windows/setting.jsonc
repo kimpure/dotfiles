@@ -36,5 +36,15 @@
 	"luau-lsp.inlayHints.functionReturnTypes": true,
 	"luau-lsp.inlayHints.hideHintsForErrorTypes": true,
 	"luau-lsp.inlayHints.parameterTypes": true,
-	"luau-lsp.inlayHints.variableTypes": true
+	"luau-lsp.inlayHints.variableTypes": true,
+
+	"luau-lsp.types.definitionFiles": [ "luau" ],
+
+	"files.associations": {
+		"*.luau": "luau",
+		"*.lua": "lua"
+	},
+
+	"pixelbyte.love2d.path": "C:\\Program Files\\LOVE\\love.exe",
+
 }
