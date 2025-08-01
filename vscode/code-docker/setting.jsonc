@@ -30,8 +30,10 @@
 	"workbench.colorTheme": "Default Dark Modern",
 	"workbench.iconTheme": "material-icon-theme",
 
-	"stylua.searchBinaryInPATH": false,
-	
+	"files.associations": {
+        	".luaurc": "json"
+   	 },
+
 	// luau-lsp settings
 	"[luau]": {
 		"editor.defaultFormatter": "JohnnyMorganz.stylua"
