@@ -1,6 +1,6 @@
 # dotfiles
 My dotfiles
 
-## Neovim
+## [Neovim](https://github.com/kimpure/nvim)
 ![](./assets/nvim_preview.png)
 
