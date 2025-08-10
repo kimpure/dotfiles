@@ -42,5 +42,7 @@
 	"luau-lsp.inlayHints.functionReturnTypes": true,
 	"luau-lsp.inlayHints.hideHintsForErrorTypes": true,
 	"luau-lsp.inlayHints.parameterTypes": true,
-	"luau-lsp.inlayHints.variableTypes": true
+	"luau-lsp.inlayHints.variableTypes": true,
+
+	"luau-lsp.types.definitionFiles": [ "luau" ]
 }
