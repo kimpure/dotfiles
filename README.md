@@ -5,3 +5,8 @@ My dotfiles
 ![](https://github.com/kimpure/nvim/raw/main/assets/preview.png)
 project repositorie [kimpure/nvim](https://github.com/kimpure/nvim)
 
+
+## [WindowsTerminal]
+![](./assets/windows-terminal.png)
+
+
