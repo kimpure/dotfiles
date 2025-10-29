@@ -2,11 +2,11 @@
 My dotfiles
 
 ## [Neovim](https://github.com/neovim/neovim)
-![](https://github.com/kimpure/nvim/raw/main/assets/preview.png)
+![](https://github.com/kimpure/nvim-config/raw/main/assets/preview.png)
 project repositorie [kimpure/nvim](https://github.com/kimpure/nvim)
 
 
-## [WindowsTerminal]
+## Windows Terminal
 ![](./assets/windows-terminal.png)
 
 

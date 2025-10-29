@@ -1,11 +1,43 @@
-set hlsearch "검색어 하이라이팅
-set nu "줄 번호
-set autoindent "자동 들여쓰기
-set ts=4 "tab 사이즈
-set showmatch "괄호 하이라이팅
-set ruler "현재 커서 위치 표시
+set encoding=UTF-8
+set fileformat=unix
+set fileformats=unix
+set clipboard=unnamedplus
+set mouse+=a
+set termguicolors
+set background=dark
+set nowrap
+set cursorline
+set scrolloff=10
+set updatetime=500
+set laststatus=2
 
-"파일 인코딩 한국어
-if $LANG[0]=='k' && $LANG[1]=='o'
-set fileencoding=korea
+set incsearch
+set ignorecase
+set smartcase
+
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+set smartindent
+
+set number
+set relativenumber
+set cmdheight=0
+set noshowmatch
+set noequalalways
+
+set shadafile=NONE
+set noswapfile
+
+set signcolumn=yes
+set background=dark
+
+set fillchars+=eob:\ 
+
+if has("win32") || has("win64")
+    set shell=C:\\windows\\system32\\windowspowershell\\v1.0\\powershell.exe
+    set shellcmdflag=-NoLogo\ -NoProfile\ -ExecutionPolicy\ RemoteSigned\ -Command
+    set shellquote=
+    set shellxquote=
 endif
